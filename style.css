@@ -143,12 +143,6 @@ a.button:hover {
     font-weight: bold;
 }
 
-.socialimg {
-    height: 2em;
-    width: 2em;
-    margin: 0.3em;
-}
-
 #menu div {
     width: 25px;
     height: 3px;
@@ -163,6 +157,12 @@ footer #logoimg {
 
 div#promo {
     justify-content: flex-start;
+}
+
+#social img {
+    height: 2em;
+    width: 2em;
+    margin: 0.3em;
 }
 
 #author p {
@@ -215,27 +215,6 @@ div#promo {
 #social {
     display: flex;
     align-items: center;
-    background-size: contain;
-}
-
-#facebook {
-    background-image: url(img/loghi/facebook.png);
-    background-size: inherit;
-}
-
-#whatsapp {
-    background-image: url(img/loghi/whatsapp-128.png);
-    background-size: inherit;
-}
-
-#youtube {
-    background-image: url(img/loghi/youtube-128.png);
-    background-size: inherit;
-}
-
-#instagram {
-    background-image: url(img/loghi/ig.png);
-    background-size: inherit;
 }
 
 #comp {
